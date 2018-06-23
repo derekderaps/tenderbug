@@ -1,0 +1,14 @@
+hawkeye_debug:
+  path: '/hawkeye-debug'
+  defaults:
+    _controller: 'hawkeye_debug_page'
+  options:
+    _admin_route: TRUE
+  requirements:
+    _access: 'TRUE'
+hawkeye_debug_theme:
+  path: '/hawkeye-debug-theme'
+  defaults:
+    _controller: 'hawkeye_debug_page'
+  requirements:
+    _access: 'TRUE'

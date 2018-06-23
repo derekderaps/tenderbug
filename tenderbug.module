@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains tenderbug.module.
+ */
+
+opcache_reset();
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_theme().
+ */
+function tenderbug_theme() {
+  return [
+    'tenderbug' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+function hawkeye_debug_page() {
+  $build = [
+    '#markup' => "aaaaarrrgh!!!!",
+  ];
+
+  /*
+  // ============================ TEMPLATE
+
+
+  return $build;
+  */
+
+  return $build;
+}
