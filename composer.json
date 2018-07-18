@@ -1,0 +1,5 @@
+{
+    "name": "hawkeyetwolf/tenderbug",
+    "description": "Local-only module to serve as sandbox/playground.",
+    "type": "drupal-module"
+}
